@@ -13,6 +13,6 @@
 {
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     params[@"webURL"] = webURL;
-    return [self performTarget:@"AXWeb" action:@"WebViewController" params:params shouldCacheTarget:NO];
+    return [self performTarget:@"TRZXWeb" action:@"WebViewController" params:params shouldCacheTarget:NO];
 }
 @end
